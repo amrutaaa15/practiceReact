@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+        $(() => {
+            namee = $('#name');
+            email = $('#email');
+            phone = $('#phone');
+            city = $('#city')
+
+            namee.blur(() => checkName());
+            email.blur(() => checkEmail());
+            phone.blur(() => checkNum());
+            city.blur(() => checkCity());
+
+            $('#formNode').submit((e) => {
+                e.preventDefault();
+                validate();
+            })
+
+
+        })
+
+        let nameRegex = /^[a-zA-Z]+$/;
+        let emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+        let phoneRegex = /[0-9]{10}/;
+        let cityRegex = /^[a-zA-Z]+$/;
+
+        let checkName = () => {
+            if (!nameRegex.test(namee.val())) {
+                $('#nameAlert').html("<strong> ! Name should contain alphabetical letters!</strong>");
+                $('#nameAlert').css({ color: "red" })
+                return false;
+            }
+            if (nameRegex.test(namee.val())) {
+                $('#nameAlert').html(" ");
+                return true;
+            }
+        }
+        let checkEmail = () => {
+            if (!emailRegex.test(email.val())) {
+                $('#emailAlert').html("<strong> !  Email Should be proper and It Should contain @ also !</strong>");
+                $('#emailAlert').css({ color: "red" })
+            }
+            if (emailRegex.test(email.val())) {
+                $('#emailAlert').html(" ");
+                return true;
+            }
+        }
+
+
+
+        let checkNum = () => {
+            if (!phoneRegex.test(phone.val())) {
+                $('#phoneAlert').html(`<strong>! ! Phone Number Should not contain Alphabets and only 10 digits allowed ! </strong>`);
+                $('#phoneAlert').css({ color: 'red' })
+                return false;
+            }
+            if (phoneRegex.test(phone.val())) {
+                $('#phoneAlert').html(" ")
+                return true;
+            }
+        }
+
+        let checkCity = () => {
+            if (!cityRegex.test(namee.val())) {
+                $('#cityAlert').html("<strong>  ! Just Enter Your city Name No numerical values  Allowed !");
+                $('#cityAlert').css({ color: "red" })
+                return false;
+            }
+            if (cityRegex.test(namee.val())) {
+                $('#cityAlert').html(" ");
+                return true;
+            }
+        }
+
+        let validate = () => {
+
+            let str = checkName();
+            let str1 = checkEmail();
+            let str2 = checkNum();
+            let str3 = checkCity();
+
+
+
+            if ((str && str1 && str2 && str3) == true) {
+                $('#alerts').html('<strong>  Great! Form Submiited Successfully we will contact you soon! </strong>');
+                $('#alerts').css({ color: 'green' })
+                namee.val(" ");
+                email.val(" ");
+                phone.val(" ");
+                city.val(" ")
+
+            }
+            else {
+                $('#alerts').html("'<strong> ! Fill all fields Correctly ! </strong>");
+                $('#alerts').css({ color: 'red' })
+            }
+        }
+
+        $(() => {
+            var cities = ["Airoli", "Mumbai", "Noida", "Punjab", "Neral"];
+
+            $('#city').autocomplete({
+                source: cities,
+
+            });
+        })
+
+    </script>
+</head>
+
+<body>
+    <form id="formNode">
+        <div class="ui-widget">
+            <div id="alerts"></div>
+            <label>Enter your name :</label><input type="text" name="name" id="name" ">
+            <span id=" nameAlert" class="center"></span><br>
+            <label>Enter your email :</label><input type="text" name="email" id="email">
+            <span id="emailAlert" class="center"></span><br>
+            <label>Enter your phone no :</label><input type="text" name="phone" id="phone">
+            <span id="phoneAlert" class="center"></span><br>
+            <label for='city'>Enter your City :</label><input id="city">
+            <span id="cityAlert" class="center"></span><br>
+            <br>
+
+            <button id="btn">Submit</button>
+            <input type="reset" id="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>

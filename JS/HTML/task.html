@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num1=parseInt(prompt("Enter the number1"));
+        var sum=0;
+        // var temp=num;
+        var reverse=0;
+        var lastDigit;
+        console.log(num1)
+        while(num1>0){
+            lastDigit=num1%10;
+            reverse=(reverse*10)+lastDigit;
+            num1=parseInt(num1/10);
+            sum=sum+lastDigit;
+            console.log(reverse+ " "+ sum)
+            
+        }
+        alert("The reverse is "+ reverse+ " and sum is "+ sum)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

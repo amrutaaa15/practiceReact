@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var num1=parseInt(prompt("Enter the marks of sub1"))
+        var num2=parseInt(prompt("Enter the marks of sub2"))
+        var num3=parseInt(prompt("Enter the marks of sub3"))
+        var num4=parseInt(prompt("Enter the marks of sub4"))
+        var num5=parseInt(prompt("Enter the marks of sub5"))
+
+        var sum=(num1+num2+num3+num4+num5)
+        var total=(alert("Your Total is "+ sum));
+
+        var per=(sum/5);
+
+        alert("your per is " + per);
+        if(per>80){
+            alert("Your grade is A");
+        }
+
+        else if(per>60 && per<80){
+            alert("Your grade is B");
+        }
+        else if(per>45 && per<60){
+            alert("Your grade is C");
+        }
+        else{
+            alert("Fail! Better luck next time");
+        }
+        </script>
+</head>
+<body>
+    
+</body>
+</html>

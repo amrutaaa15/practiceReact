@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // String Opeartions 
+
+        // 1]Concat
+
+        var str = "I love Javascript";
+
+        var newString = str.concat("and Web Development too");
+
+        console.log(newString);
+
+        // 2]Replace
+
+        var str1 = "This is a string";
+        var replaced = str1.replace("string", "Amruta");
+        console.log(replaced);
+
+
+        // 3]upperCase
+
+        var up = str1.toUpperCase();
+        console.log(up);
+        console.log(str1.toLowerCase());
+
+        // 5]Trim 
+
+        var tr = "       Hie     my name is   Amruta       ";
+        console.log(tr);
+        var trimmed = tr.trim();
+        console.log(trimmed);
+
+        console.log(tr.trimStart());
+        console.log(tr.trimEnd());
+        console.log(tr.trimRight());
+        console.log(tr.trimLeft());
+
+
+        // 6]endswith
+
+        var end = "This is end string";
+        console.log(end.endsWith("g"));
+        console.log(end.endsWith("i"));
+
+
+        // 7]includes
+        var inn = "Hie javascript";
+        console.log(inn.includes("t"))
+        console.log(inn.includes("k"))
+
+        // 8]italics
+        console.log(inn.italics())
+
+
+        // 9]padding 
+        var padd = "5";
+        console.log(padd.padStart(4, "0"))
+        console.log(padd.padEnd(4, "0"))
+
+        // 10]charcodeat 
+        var ch = "Hello";
+        console.log(ch.charCodeAt(0));
+
+        // 11]split 
+        var sp = "javascript is scripting language";
+        var arr = sp.split(" ");
+        console.log(arr);
+
+
+        // 12]toString
+        var a = 123;
+        console.log(typeof a);
+        var b = a.toString();
+        console.log(typeof b);
+
+        // 13] string using new
+        var string = new String("Hello string");
+        console.log(string)
+
+        // 14] startswith
+        var s = "hey everone";
+        console.log(s.startsWith("h"));
+        console.log(s.startsWith("a"));
+
+        // 15]search
+        var se = "var's search this";
+        console.log(se.search("search"));
+
+
+
+        // Array opeartions 
+        var food = new Array("pizza", "shengule", "mom's chicken", "chinese");
+        console.log(food.length)
+        var loc = new Array(3);
+        console.log(loc.length)
+
+        var locations=["Airoli","Noida","Mumbai","Kedarnath"]
+        var last = "ghansoli";
+        var first = "turbhe";
+        locations.push(last);
+        console.log(locations)
+        locations.unshift(first);
+        console.log(locations);
+
+        locations.pop();
+        console.log(locations);
+
+        locations.shift();
+        console.log(locations)
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

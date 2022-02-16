@@ -1,0 +1,66 @@
+.container{
+    border: 2px solid black;
+    width: 90%;
+    margin: 3px auto;
+}
+.header{
+    height: 60px;
+    background-color: rgb(243, 104, 243);
+    text-align: center;
+}
+
+.menus{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menus p{
+    margin: 80px 75px;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+}
+.card1{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 0 6px;
+    border-radius: 100px;
+    color: red;
+    
+}
+.card2{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 5px 6px;
+}
+.card3{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 5px 6px;
+}
+.card4{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 5px 6px;
+    border-radius: 100px;
+}
+.card5{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 5px 6px;
+    border-radius: 100px;
+}
+.card6{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin: 5px 6px;
+    border-radius: 100px;
+}

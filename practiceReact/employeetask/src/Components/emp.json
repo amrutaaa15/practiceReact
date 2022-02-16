@@ -1,0 +1,44 @@
+{
+  "Employee": [
+    {
+      "id": 1,
+      "Ename": "Amruta",
+      "email": "amrutakhamkar15@gmail.com",
+      "Salary": "30000",
+      "Gender": "Female",
+      "Age": "22"
+    },
+    {
+      "Ename": "Apurva",
+      "email": "Apurva@gmail.com",
+      "Salary": "30000",
+      "Gender": "Female",
+      "Age": "22",
+      "id": 2
+    },
+    {
+      "Ename": "Prachi",
+      "email": "Prachi@gmail.com",
+      "Salary": "30000",
+      "Gender": "Female",
+      "Age": "22",
+      "id": 3
+    },
+    {
+      "Ename": "Samiksha",
+      "email": "Samiksha@gmail.com",
+      "Salary": "30000",
+      "Gender": "Female",
+      "Age": "22",
+      "id": 4
+    },
+    {
+      "Ename": "Madhuri",
+      "email": "Madhuri@gmail.com",
+      "Salary": "30000",
+      "Gender": "Female",
+      "Age": "22",
+      "id": 5
+    }
+  ]
+}

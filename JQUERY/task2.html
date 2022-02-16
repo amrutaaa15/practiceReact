@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(()=>{
+            $("#btn").click(()=>{
+                $('.container').append('<h1>Hello Jquery </h1>')
+            })
+            $("#btn1").click(()=>{
+                $('.container').prepend('<h1>Hello Jquery </h1>')
+            })
+            $("#btn2").click(()=>{
+                $('.container').before('<h1>Hello Jquery </h1>')
+            })
+            $("#btn3").click(()=>{
+                $('.container').after('<h1>Hello Jquery </h1>')
+            })
+            $("#btn4").click(()=>{
+                $('.container').empty();
+            })
+            $("#btn5").click(()=>{
+                $('#link').remove();
+            })
+            $("#btn6").click(()=>{
+                $('#link').removeAttr('href');
+            })
+            $("#btn7").click(()=>{
+                $('.container').addClass('row');
+            })
+            $("#btn8").click(()=>{
+                $('.container').removeClass('row');
+            })
+            $("#btn9").click(()=>{
+                $('.container').toggleClass('hey');
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="container hey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam enim tenetur praesentium quod officiis voluptatibus qui impedit molestias sequi quia culpa et deleniti, deserunt rerum animi perferendis sint saepe tempora.
+        <h3>Effetcs of Jquery</h3>
+    </div>
+
+    <a href="/task.html" id='link'>Link</a>
+    <button id="btn">Append</button>
+    <button id="btn1">prepend</button>
+    <button id="btn2">Before</button>
+    <button id="btn3">After</button>
+    <button id="btn4">Empty</button>
+    <button id="btn5">remove</button>
+    <button id="btn6">removeAttr</button>
+    <button id="btn7">addClass</button>
+    <button id="btn8">removeClass</button>
+    <button id="btn9">toggleClass</button>
+</body>
+</html>

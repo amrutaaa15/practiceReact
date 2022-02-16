@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+
+        function read(){
+            var para=document.getElementById("para");
+            alert(para.innerText);
+        }
+        
+        function update(){
+            var para=document.getElementById("para");
+           para.innerText="I am Fine What about You?";
+           para.style.border="2px solid red";
+           para.style.textAlign="center";
+           para.style.color="blue";
+           para.style.backgroundColor="yellow"
+        }
+    </script>
+<body>
+    <h1>DOM Manipulation</h1>
+
+    <p id="para">Hello ! How Are You?</p>
+
+    <button onclick="read()" >Read Data</button>
+    <button onclick="update()" >Update Data Data</button>
+</body>
+</html>

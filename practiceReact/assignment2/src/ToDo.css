@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ .Container{
+    background: url('./img11.jpg') center center/cover;
+    height: 100vh;
+    color: white;
+}
+.Container input{
+    background:none;
+    border:3px solid white;
+    margin-top: -9px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    margin-bottom: 18px;
+    font-weight: bold;
+    padding: 9px;
+}
+.Container textarea{
+    background:none;
+    border:3px solid white;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    margin-bottom: 18px;
+    font-weight: bold;
+    margin-left: -18px;
+}
+label{
+    font-size: 21px;
+}
+.Container label:first-child{
+   position: relative;
+   top:-30px;
+   font-size: 21px;
+   /* margin-left: -32px; */
+}
+.label{
+   position: relative;
+   top:-40px;
+   font-size: 21px;
+   margin-left: -12px;
+   margin-right: 16px;
+}
+.btn{
+    background-color:rgb(0, 0, 0);
+    outline: none;
+    font-size: 21px;
+    cursor: pointer;
+    color: white;
+    border-radius: 18px;
+    padding: 6px 18px;
+    margin: 6px 12px;
+}
+.btn:hover{
+    background-color: rgb(51, 51, 51);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.table{
+    border: 2px solid white;
+    border: none;
+    border-collapse: collapse;
+    width:700px;
+    margin: 12px auto;
+    background-color: rgb(44, 44, 44);
+}
+.scroll{
+    height: 310px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width:700px;
+    margin: 0px auto;
+}
+.table th{
+    font-size: 21px;
+}
+.table td,th{
+    padding: 12px;
+}
+.btn1,.btn2{
+    background-color:rgb(0, 0, 0);
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 12px;
+    padding: 6px 12px;
+    margin:0 9px
+}
+.btn1:hover{
+    background-color: green
+}
+.btn2:hover{
+    background-color: red;
+}
+.nums{
+ /* border: 2px solid red; */
+    position: relative;
+    left: 900px;
+    width: 30%; 
+    top:30px;
+}
+.red{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    background-color: rgb(217, 231, 17);
+    padding: 3px 12px;
+    border-radius: 50px;
+    margin-left: 9px;
+}

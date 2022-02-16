@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(255, 241, 248);
+}
+
+.middle {
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.middle ul li a {
+    font-size: 13px;
+    margin: 0 21px;
+}
+
+.middle ul li a :hover {
+    color: rgb(41, 176, 255);
+}
+
+.right i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.heading1 {
+    margin: 0 33px;
+    margin-top: 60px;
+    font-style: italic;
+}
+
+.para1 {
+    margin: 18px 33px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn1 {
+    margin: 9px 33px;
+}
+
+.hLine {
+    width: 20%;
+    color: black;
+    margin-left: 30px;
+}
+
+.container1 {
+    margin: 18px auto;
+    padding: 3px 12px;
+}
+
+.discount {
+    margin: 0 20px;
+    padding: 3px;
+}
+
+.discount p {
+    font-size: 14px;
+}
+
+.discount i {
+    font-size: 15px;
+    padding: 0 9px;
+}
+
+.featured p i {
+    font-size: 40px;
+    padding: 0 6px;
+}
+
+.featured p i:nth-child(2) {
+    font-size: 30px;
+}
+
+.featureCard {
+    margin: 3px 10px;
+}
+
+.widthNav {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.widthNav ul li a {
+    margin: 0 6px;
+}
+
+.small {
+    width: 99px;
+}
+
+.shoppingCards1 {
+    margin: 0px auto;
+    width: 1300px;
+}
+
+.shoppingCards1 img {
+    width: 150px;
+    height: 190px;
+}
+
+.text {
+    position: relative;
+    padding: 9px 7px;
+    width: 45px;
+    left: -9px;
+    font-size: 12px;
+}
+
+.shoppingCards1 i {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    font-size: 30px;
+    color: rgb(149, 43, 170);
+}
+
+.surfing {
+    width: 1300px;
+    margin: 37px;
+}
+
+.surfingText {
+    margin-left: 21px;
+}
+
+.surfingWidth img {
+    width: 1000px;
+    height: 600px;
+}
+
+.surfingText i {
+    font-size: 15px;
+    color: gold
+}
+
+.surfingText i:nth-child(2) {
+    color: purple;
+}
+
+#colors i {
+    font-size: 15px;
+    padding: 0 9px;
+}
+
+.insta {
+    margin: 18px auto;
+}
+
+.insta div {
+    margin: 12px 6px;
+    border: none;
+}
+
+.insta img {
+    width: 175px;
+    height: 170px;
+}
+
+.cart div {
+    border: none;
+}
+
+.cardImg img {
+    width: 90px;
+    height: 80px;
+    border-radius: 100px;
+    position: relative;
+    top: 70px;
+    left: 570px;
+}
+
+.cardImg p {
+    font-style: italic;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cardImg h6 {
+    margin-left: 30px;
+}
+
+.footerr {
+    background-color: rgb(24, 24, 24);
+}
+
+.blue span {
+    border: 2px solid blue;
+    background-color: black;
+    padding: 3px 9px;
+    border-radius: 130px;
+    font-weight: bold;
+}
+
+.blue span:nth-child(2) {
+    border: 2px solid red;
+    margin-left: -7px;
+}
+
+.blue span:nth-child(3) {
+    border: 2px solid yellow;
+    margin-left: -7px;
+}
+
+.icons i {
+    margin: 6px 9px;
+}
+
+.contact {
+    background: url(../IMGS/contact.jpg) no-repeat center/cover;
+    padding: 30px;
+}
+
+.contactImg img {
+    left: 610px
+}

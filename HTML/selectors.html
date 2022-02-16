@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selctor  */
+        *{
+           font-family: cursive;
+        }
+
+        /* class selectors */
+        .para{
+            background-color: yellow;
+            color: red;
+        }
+
+        /* ID selectors */
+        #IdPara{
+            font-style: italic;
+            color: purple;
+            border: 2px solid green;
+        }
+
+        /* grouping selectors */
+        .center1,.center2,.center3{
+            text-align: center;
+        }
+
+        /* children selectors */
+        .art p{
+            border: 2px dotted red;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center1">Class Selelctors</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis iure earum, et voluptatibus ipsum, eos voluptates voluptatum dolor sit impedit nesciunt optio laborum, recusandae dolorem quas in ipsam voluptatem?</p>
+
+    <h1 class="center2">ID Selelctors</h1>
+    <p id="IdPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis iure earum, et voluptatibus ipsum, eos voluptates voluptatum dolor sit impedit nesciunt optio laborum, recusandae dolorem quas in ipsam voluptatem?</p>
+
+    <h1 class="center3">Grouping Selelctors</h1>
+
+    <article class="art">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis illo at aut sed, dolorem dolorum minima rem sint qui beatae fugit iste, tenetur et dignissimos. Ut quia rerum animi aspernatur?</p>
+    </article>
+
+    
+</body>
+</html>

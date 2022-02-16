@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function clickk() {
+
+
+            var expName = /^[a-zA-Z ]{2,50}/;
+            var email = /^[a-zA-Z0-9- ]+@+$/;
+            var mobile = /^[6-9][0-9]{9}/;
+            var feed = /[a-zA-Z]{20,200}/
+
+            var val1 = parseInt(document.getElementById("inp1").value);
+            var val2 = parseInt(document.getElementById("inp2").value);
+            var val3 = parseInt(document.getElementById("inp3").value);
+            var val4 = parseInt(document.getElementById("inp4").value);
+
+            if (!expName.test(val1)) {
+                alert("name should contain alphabets")
+            }
+
+            else if (!email.test(val2)) {
+                alert("Email is not valid")
+            }
+
+            else if (!mobile.test(val3)) {
+                alert("Email is not valid")
+            }
+
+            else if (!feed.test(val4)) {
+                alert("length sholud between 20 to 200")
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <form>
+        Name <input type="text" id="inp1"><br>
+        Mobile <input type="text" id="inp2"><br>
+        Email <input type="text" id="inp3"><br>
+        Feedback <textarea id="inp4" cols="30" rows="10"></textarea>
+
+        <input type="button" onclick="clickk()" value="Submit">
+    </form>
+</body>
+
+</html>

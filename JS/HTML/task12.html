@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        add = () => {
+            arr=[];
+
+            var ul = document.getElementById("ul");
+            var li = document.createElement("li");
+            li.innerHTML = inp1.value + "<button onClick='deletee(index,elem)'>Delete</button>"
+            arr.push(li);
+
+            arr.forEach(li => {
+                ul.appendChild(li);
+               
+            });
+           
+        }
+      
+        deletee=()=>{
+           
+        }
+    </script>
+</head>
+
+<body>
+    <h1>To Do List</h1>
+
+    <input type="text" name="" id="inp1"><br>
+    <input onclick="add()" type="button" value="Add List" id="btn">
+    <input onclick="deletee()" type="button" value="Delete List" id="btn1">
+
+    <ul id="ul">
+
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+--> GIT :- Git is a distributed revision control and source code management system.
+  -> It allows us to manage our source code histroy efficiently.
+  -> It is an open source 
+    -> Version Control System :- It is a software that helps developers to work together and maintain a complete histroy of their work.
+      -> Types 
+         -> distributed version control system 
+                           User
+                            commit
+                              local repo 
+                               pull / push
+                             -
+                             -
+                             -
+                             -
+            User -------->      GIT (remote repo) <-----User
+
+    -> Adantages of GIT 
+      -> free and open source 
+      -> fast 
+      -> easy to manage
+      -> security 
+ _> Difference between Git and Git Hub 
+   -> git is a sofware tool and Github is a service 
+   -> It is install in local system and Github is hosted on the web 
+   -> Git is used to manage different versions of the source code while github is used to have a copy of the local repo code.
+   -> Git provide command line to interect with the file while Github provide a GUI to store the files
+
+-> Git Archirecture 
+-> Environmental Setup 
+  git bash 
+  -> create an account in github 
+
+     git status 
+     git init 
+     git add . 
+     git commit -m "commit message" 
+     git config --global user.email "sumit.ducat@gmail.com"
+     git config --global user.name "sumit"
+     -> create a repo in github 
+     git remote add origin 'repourl'
+     git push -u origin master 
+
+     -> git clone url
+     -> Branches 
+       -> git branch 
+         show all branches 
+       -> How we create a branch 
+       git branch demo
+       git checkout demo (switch to demo)
+       -> create branch and checkout 
+        git checkout -b sumit 
+        git branch -D test (delete a branch)
+        -> rename a branch 
+        git branch -m demo mydemo
+        git diff 
+        git merge :- 
+           first we commit 
+           git log 
+           copy the log which want want to merger in other branch 
+           git checkout otherbranch 
+           git merge log 
+        -> today 
+        -> environmental setup 
+           global configuration 
+              email 
+              uname 
+            -> git clone 
+            -> create account in git hub 
+            -> git init 
+            -> git status 
+            -> git add 
+            -> git commit -m "message"
+            -> git log 
+            -> git diff 
+            -> git push origin <bname>
+            -> git remote add origin <server>
+            -> git branch 
+              git branch <bname> 
+              git checkout <bname>
+              git merge <bname/log>
+              git branch -D <bname>
+  
+

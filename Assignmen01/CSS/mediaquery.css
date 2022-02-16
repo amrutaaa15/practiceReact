@@ -1,0 +1,370 @@
+@media screen and (min-width:0px) and (max-width:1326px) {
+    .rightnav ul li a {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .rightnav {
+        margin-left: 800px;
+    }
+    .card1, .card2, .card3 {
+        width: 320px;
+        height: 250px;
+    }
+    .article1, .article2, .article3 {
+        margin-left: 15px;
+    }
+    .cards, .cards2, .features {
+        width: 97%;
+    }
+    .features {
+        font-size: 28px;
+    }
+    .icons {
+        margin-left: 2px;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .copy {
+        font-size: 15px;
+        left: -12px;
+    }
+    .social {
+        left: 180px;
+    }
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1326px) {
+    .card1, .card2, .card3 {
+        width: 395px;
+        height: 250px;
+    }
+    .article1, .article2, .article3 {
+        margin-left: 18px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1100px) {
+    .card1, .card2, .card3 {
+        width: 300px;
+        height: 250px;
+    }
+    .article1, .article2, .article3 {
+        margin-left: 12px;
+    }
+    .rightnav ul li a {
+        font-size: 12px;
+        padding: 3px;
+    }
+    .rightnav {
+        margin-left: 700px;
+    }
+    .copy {
+        font-size: 15px;
+        left: 10px;
+    }
+    .features {
+        font-size: 23px;
+        padding: 6px 9px;
+        width: 95%;
+    }
+    .social {
+        left: 150px;
+    }
+    .imgs, .imgs1, .imgs2 {
+        width: 350px;
+        border: 2px solid rgb(114, 114, 114);
+        padding: 12px;
+    }
+    .cards2 {
+        width: 96%;
+    }
+    .card1, .card2, .card3 {
+        width: 290px;
+        height: 200px;
+    }
+    .text {
+        font-size: 12px;
+    }
+    .text1 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:1000px) {
+    .rightnav {
+        margin-left: 550px;
+    }
+    .card1, .card2, .card3 {
+        width: 250px;
+        height: 200px;
+    }
+    .copy {
+        font-size: 12px;
+        left: -12px;
+    }
+    .social {
+        left: 120px;
+    }
+    .text, .text1 {
+        font-size: 12px;
+        left: 75px;
+    }
+    .text {
+        top: -12px
+    }
+    .cards img {
+        width: 60px;
+        height: 50px;
+        margin-right: 1px;
+    }
+    .cards2 img {
+        width: 70px;
+        height: 60px;
+    }
+    .text1 span {
+        bottom: -40px;
+        left: 5px;
+    }
+    .article1, .article2, .article3 {
+        margin-left: 6px;
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:850px) {
+    .card1, .card2, .card3 {
+        width: 170px;
+        height: 130px;
+    }
+    .cards img {
+        width: 40px;
+        height: 50px;
+    }
+    .cards2 img {
+        width: 40px;
+        height: 50px;
+    }
+    .text, .text1 {
+        font-size: 12px;
+        left: 60px;
+    }
+    .rightnav {
+        margin-left: 400px;
+    }
+    .copy {
+        font-size: 12px;
+        left: -90px;
+    }
+    .features {
+        font-size: 11px;
+        padding: 3px;
+        width: 95%;
+    }
+    .flex h1 {
+        font-size: 15px;
+    }
+    .flex ul li {
+        font-size: 16px;
+        padding: 3px 5px;
+    }
+    .social {
+        left: 20px;
+    }
+    .main {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:650px) {
+    .cards, .cards2 {
+        flex-direction: column;
+    }
+    .main {
+        height: 500px;
+    }
+    .rightnav {
+        margin-left: 200px;
+        font-size: 9px;
+    }
+    .rightnav ul li a {
+        padding: 0;
+    }
+    .flex ul li {
+        width: 50px;
+    }
+    .foo {
+        flex-direction: column;
+        height: 100%;
+    }
+    .leftnav {
+        font-size: 9px;
+        margin-left: 0px;
+    }
+    .copy {
+        font-size: 12px;
+        left: 240px;
+        width: 30%;
+        top: -30px;
+    }
+    .card1, .card2, .card3 {
+        width: 420px;
+        height: 330px;
+    }
+    .article1, .article2, .article3 {
+        margin: 16px;
+    }
+    .cards img, .cards2 img {
+        width: 70px;
+        height: 60px;
+    }
+    .text, .text1 {
+        top: -22px;
+        left: 90px;
+        font-size: 18px;
+    }
+    .imgs, .imgs1, .imgs2 {
+        width: 370px;
+        margin: 6px;
+    }
+    .features {
+        font-size: 30px;
+    }
+    .social {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:450px) {
+    .main {
+        height: 800px;
+    }
+    .cards, .cards2 {
+        flex-direction: column;
+    }
+    .cards img, .cards2 img {
+        width: 70px;
+        height: 60px;
+    }
+    .text, .text1 {
+        top: -22px;
+        left: 90px;
+        font-size: 18px;
+    }
+    .navbar {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text, .text1 {
+        top: -22px;
+        left: 90px;
+        font-size: 18px;
+    }
+    .leftnav {
+        font-size: 30px;
+    }
+    .leftnav span {
+        font-size: 20px;
+    }
+    .rightnav {
+        margin-left: 3px;
+        font-size: 9px;
+        margin-top: 50px;
+    }
+    .rightnav ul li a {
+        font-size: 15px;
+        padding: 6px;
+    }
+    .card1, .card2, .card3 {
+        width: 300px;
+        height: 230px;
+    }
+    .article1, .article2, .article3 {
+        width: 300px;
+        margin: 12px;
+    }
+    .imgs, .imgs1, .imgs2 {
+        width: 280px;
+    }
+    .copy {
+        left: 180px;
+        top: -30px;
+        width: 40%;
+    }
+    .btn1 {
+        margin-bottom: 9px;
+    }
+    .features {
+        font-size: 20px;
+    }
+    .foo {
+        flex-direction: column;
+        height: 100%;
+    }
+    .social {
+        left: 10px;
+        width: 50%;
+    }
+}
+
+/* login page and sign up  */
+
+@media screen and (min-width:0px) and (max-width:470px) {
+    .signin input {
+        width: 200px;
+        margin-left: -33px;
+    }
+    .signin button {
+        width: 120px;
+        margin-left: -28px;
+        margin-right: 36px;
+    }
+    .contact input {
+        width: 200px;
+        margin-left: -46px;
+    }
+    .contact button {
+        width: 120px;
+        margin-left: -28px;
+        margin-right: 36px;
+    }
+}
+
+@media screen and (min-width:470px) and (max-width:850px) {
+    .signin input {
+        width: 200px;
+    }
+    .signin button {
+        width: 90px;
+        margin-right: -31px;
+    }
+    .signin .btns {
+        margin-left: -21px;
+    }
+    .contact input {
+        width: 200px;
+    }
+    .contact .btns {
+        margin-left: -21px;
+    }
+    .contact button {
+        width: 90px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:985px) {
+    .contact button {
+        width: 70%;
+        padding: 3px;
+        margin-right: 5px;
+    }
+    .btns {
+        width: 170px;
+    }
+    .btns .reset {
+        margin-left: 12px;
+    }
+}

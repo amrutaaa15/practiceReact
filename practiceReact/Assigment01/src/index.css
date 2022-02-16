@@ -1,0 +1,338 @@
+/* SOME GOOGLE FONTS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa:wght@700&family=Federant&family=Hind+Siliguri:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* NAVBAR  */
+
+#container {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    color: white;
+    opacity: 0.9;
+}
+
+.leftnav {
+    display: inline-block;
+    opacity: 0.7;
+    font-size: 30px;
+    padding: 11px 9px;
+    margin-left: 21px;
+}
+
+.leftnav span {
+    font-size: 24px;
+    margin-left: 6px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.rightnav {
+    margin-left: 930px;
+}
+
+.rightnav ul {
+    display: flex;
+}
+
+.rightnav ul li {
+    list-style: none;
+    color: white;
+}
+
+.rightnav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    position: relative;
+    top: -33px;
+    border-right: 2px solid white;
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.rightnav ul li a:hover {
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+.icons i {
+    font-size: 12px;
+    color: wheat;
+    position: relative;
+    top: -35px;
+    font-size: 15px;
+    padding: 3px;
+    margin-left: 6px;
+}
+
+.main {
+    height: 400px;
+    background: url(./IMGS/img1.jpg) no-repeat center/cover;
+    color: white;
+    text-align: center;
+    opacity: 0.99;
+}
+
+.main h1 {
+    padding-top: 100px;
+    opacity: 0.8;
+    font-size: 50px;
+}
+
+.main p {
+    padding: 18px 0;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.8;
+    font-size: 21px;
+}
+
+.btn1 {
+    padding: 6px 22px;
+    background-color: rgb(0, 184, 0);
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 6px 22px;
+    background-color: rgb(72, 72, 255);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: rgb(0, 184, 0);
+}
+.btn2:hover{
+    background-color: black;
+    color: rgb(108, 108, 219);
+}
+.cards, .cards2 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cards2 {
+    margin-top: 60px;
+}
+
+.card1, .card2, .card3 {
+    width: 400px;
+    height: 300px;
+}
+
+.cards img {
+    width: 90px;
+    height: 80px;
+    margin: 0 9px;
+    margin-top: 12px;
+    margin-bottom: -30px;
+    box-shadow: 2px 2px 2px;
+}
+
+.cards2 img {
+    width: 100px;
+    height: 90px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px;
+    margin-bottom: -65px;
+}
+
+.text, .text1 {
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    left: 110px;
+    font-size: 18px;
+}
+
+/* SELECTING FIRST CHILD HERE  */
+.text1 span:first-child {
+    color: rgb(121, 121, 121);
+}
+
+/* SELECTING SECOND CHILD HERE  */
+.text1 span:nth-child(2) {
+    color: rgb(44, 44, 44);
+}
+
+.text1 span {
+    position: relative;
+    bottom: -22px;
+}
+
+.cards2 div {
+    position: relative;
+    top: -39px;
+}
+
+.imgs, .imgs1, .imgs2 {
+    width: 410px;
+    border: 2px solid rgb(114, 114, 114);
+    padding: 15px;
+}
+
+.article1, .article2, .article3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 21px;
+    box-shadow: 4px 4px 3px;
+}
+
+/* SOME HOVER EFFECTS */
+.cards2 img:hover {
+    transition: all 0.5s;
+    box-shadow: 6px 6px 4px rgb(70, 70, 70);
+}
+
+.cards img:hover {
+    transition: all 0.5s;
+    box-shadow: 6px 6px 4px rgb(70, 70, 70);
+}
+
+/* SOME ANIMATIONS  :) */
+.card1:hover {
+    animation: effect 1s ease-in 1s alternate;
+    position: relative;
+    transition: all 0.6s;
+}
+
+.card2:hover {
+    animation: effect 1s ease-in 1s alternate;
+    position: relative;
+    transition: all 0.6s;
+}
+
+.card3:hover {
+    animation: effect 1s ease-in 1s alternate;
+    position: relative;
+    transition: all 0.6s;
+}
+
+@keyframes effect {
+    0% {
+        bottom: -120px;
+    }
+    50% {
+        bottom: -70px;
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+.img1, .img2, .img3 {
+    border: 2px solid grey;
+    display: inline-block;
+}
+
+.card1 {
+    background: url(./IMGS/img2.jpg) no-repeat center/cover;
+}
+
+.card2 {
+    background: url(./IMGS/img3.jpg) no-repeat center/cover;
+}
+
+.card3 {
+    background: url(./IMGS/img4.jpg) no-repeat center/cover;
+}
+
+.features {
+    font-size: 40px;
+    margin: 21px 0;
+}
+
+.features span {
+    padding: 6px 22px;
+} 
+
+/* DIFFERENT FONT FAMILIES */
+ .texas {
+    font-family: 'Federant', cursive
+}
+
+.small {
+    font-size: 31px;
+}
+
+.woo {
+    font-family: 'Comfortaa', cursive;
+}
+
+.ver {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.open {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: lighter;
+}
+
+/* FOOTER  */
+.foo {
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    display: flex;
+    padding: 9px;
+    height: 300px;
+}
+
+.flex {
+    margin: 12px;
+}
+
+.foo li {
+    list-style: none;
+    padding: 9px;
+    color: wheat;
+    font-size: 18px;
+    margin: 6px 18px;
+    color: rgb(131, 131, 131);
+}
+
+.flex h1 {
+    font-size: 23px;
+    margin: 6px 18px;
+}
+
+.social {
+    position: relative;
+    left: 250px;
+    top: 21px;
+}
+
+.social i {
+    font-size: 27px;
+    padding: 3px 6px;
+}
+
+.copy {
+    position: relative;
+    left: 100px;
+    top: 230px;
+    height: 60px;
+    color: rgb(131, 131, 131);
+}
+

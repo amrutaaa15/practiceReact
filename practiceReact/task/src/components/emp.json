@@ -1,0 +1,12 @@
+{
+  "Employee": [
+    {
+      "Ename": "didi sonu",
+      "email": "amrutakhamkar15@gmail.com",
+      "Salary": "30000000000",
+      "Gender": "female",
+      "Age": "21",
+      "id": 1
+    }
+  ]
+}

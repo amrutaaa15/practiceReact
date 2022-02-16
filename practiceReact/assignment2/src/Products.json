@@ -1,0 +1,89 @@
+{
+ "Products":[
+    {   
+        "id":1,
+       "ProductName":"LeatProJacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../IMGS/shop1.jfif"
+    },
+    {   
+        "id":2,
+        "ProductName":"High Shooes",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop2.jpeg"
+    },
+    {   
+        "id":3,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop3.jpg"
+    },
+    {   
+        "id":4,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop4.jfif"
+    },
+    {   
+        "id":5,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop5.jpg"
+    },
+    {   
+        "id":6,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop6.jpg"
+    },
+    {   
+        "id":7,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop7.jpg"
+    },
+    {   
+        "id":8,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop8.jpg"
+    },
+    {   
+        "id":9,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop9.jfif"
+    },
+    {   
+        "id":10,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop10.jpeg"
+    },
+    {   
+        "id":11,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop11.jpg"
+    },
+    {   
+        "id":12,
+        "ProductName":"Leat Pro Jacket",
+        "Price":3999,
+        "Quantity":4,
+        "imgsrc":"../Imgs/shop12.jpeg"
+    }
+   
+]
+}
